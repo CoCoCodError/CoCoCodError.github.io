@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Новогодние Эко-Венки в Аше</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+	<style>
+		body {
+			background-image:url('backgroundForShop2.jpg');
+			background-size:70%;
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+		.packages {
+			padding:20px;
+			margin:10px;
+		}
+		.mainMenu {
+			text-align:center;
+			margin: 0 auto;
+			opacity:99%;
+			width:80%;
+			height:90%;
+			padding-top:5%;
+			padding-bottom:5%;
+			background-color:#F9F9F9;
+		}
+		.firstString {
+			display:inline-block;
+		}
+		header img {
+			width:12%;
+			height:24%;
+
+		}
+		.packages {
+			width:12%;
+			height:25%;
+			background-color:#B1CCA6;
+			border-radius:20px;
+			margin-left:20px;
+			display:inline-block;
+			-webkit-transition: all linear .25s;
+			z-index:0;
+		}
+		a,
+		a:hover,
+		a:active {
+			text-decoration:none;
+		}
+		.packages:hover {
+			width:15%;
+			height:25%;
+			margin-left:3%;
+			background-color:#B1D0A5;
+			transition:.9s;
+		}
+		.packages:hover #img1 {
+			width:100%;
+			height:100%;
+			border-radius:20px;
+		}
+		#img1 {
+			margin-top:5%;
+			width:60%;
+			height:50%;
+		}
+		.packages:hover #img2 {
+			width:100%;
+			height:100%;
+			border-radius:20px;
+		}
+		.packages:hover #img3 {
+			width:100%;
+			height:100%;
+			border-radius:20px;
+		}
+		#img3 {
+			height:63%;
+			width:72%;
+		}
+		img {
+			width:63%;
+			height:58%;
+		}
+		footer {
+			color:green;
+		}
+		#img0 {
+			transform: scale(-1, 1)
+		}
+		.packages:hover img {
+			width:100%;
+			height:100%;
+			border-radius:20px;
+		}
+		.contactsInfo {
+			display:inline-block;
+		}
+		a {
+	position: relative;
+	color: #000; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+
+}
+a:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #00a650; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+a:hover:after,
+a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+	footer {
+		margin-bottom:-5%;
+
+	}
+	.contactsInfo {
+		font-size:50px;
+		color:#000;
+		display:inline-block;
+	}
+	#contactMark {
+		display:inline-block;
+		margin-top:-10px;
+		font-size:50px;
+		color:#000;
+	}
+	small {
+		color:#00A650;
+	}
+	</style>
+
+		<div class = 'mainMenu'>
+			<h5 id = 'contactMark'>Контакты:</h5>
+			<a href = 'https://vk.com/id280866126' class = 'contactsInfo'>ВКонтакте |</a>
+			<a href = '' class = 'contactsInfo'> WhatsApp</a>
+			<header align = 'center'>
+				<img class = 'firstString' id = 'firstImage' src = '222.png'>
+				<h1 class = 'firstString'> Рождественские эко-венки в Аше </h1>
+				<img id = 'img0' id = 'secondImage' class = 'firstString' src = '222.png'>
+				<br>
+				<small>*сообщайте артикул и размер при заказе</small>
+				<br>
+			</header>
+		
+			<main>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img1' src = 'Новая папка/1changed.jpg'>
+					<p>Цена:750 рублей</p>
+					<p>Артикул:#0001</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img2' src = 'Новая папка/2changed.jpg'>
+					<p>Цена:690 рублей</p>
+					<p>Артикул:#0002</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img3' src = 'Новая папка/3changed.jpg'>
+					<p>Цена:690 рублей</p>
+					<p>Артикул:#0003</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img4' src = 'Новая папка/4changed.jpg'>
+					<p>Цена:690 рублей</p>
+					<p>Артикул:#0004</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img5' src = 'Новая папка/5changer.jpg'>
+					<p>Цена:950 рублей</p>
+					<p>Артикул:#0005</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img6' src = 'Новая папка/6.jpg'>
+					<p>Цена:750 рублей</p>
+					<p>Артикул:#0006</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img8' src = 'Новая папка/8.jpg'>
+					<p>Цена:750 рублей</p>
+					<p>Артикул:#0001</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img7' src = 'Новая папка/7.jpg'>
+					<p>Цена:550 рублей</p>
+					<p>Артикул:#0008</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img9' src = 'Новая папка/9.jpg'>
+					<p>Цена:590 рублей</p>
+					<p>Артикул:#0009</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img' src = 'Новая папка/10.jpg'>
+					<p>Цена:590 рублей</p>
+					<p>Артикул:#0009</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img' src = 'Новая папка/11.jpg'>
+					<p>Цена:750 рублей</p>
+					<p>Артикул:#0011</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img' src = 'Новая папка/13.jpg'>
+					<p>Цена:750 рублей</p>
+					<p>Артикул:#0006</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img' src = 'Новая папка/14.jpg'>
+					<p>Цена:550 рублей</p>
+					<p>Артикул:#0008</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img' src = 'Новая папка/15.jpg'>
+					<p>Цена:550 рублей</p>
+					<p>Артикул:#0014</p>
+				</div>
+				<div class = 'packages'>
+					<img class = 'images' id = 'img' src = 'Новая папка/17.jpg'>
+					<p>Цена:750 рублей</p>
+					<p>Артикул:#0015</p>
+				</div>
+			</main>
+		
+			<footer>
+				<h4> Copyright © 2019 Магазин Рождественских Венков Аша</h4>
+			</footer>
+		</div>
+</body>
+</html>
